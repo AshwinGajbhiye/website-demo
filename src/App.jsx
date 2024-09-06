@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 // Pages
 import Home from './pages/Home'; // Home component will include Services, Info, and Projects
 import Service from './pages/Service';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Service />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

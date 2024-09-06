@@ -15,7 +15,7 @@ function Header() {
           <li className="hover:text-black hover:bg-white px-4 py-2 rounded-[50rem]"><Link to="/services">Services</Link></li>
           <li className="hover:text-black hover:bg-white px-4 py-2 rounded-[50rem]">Projects</li>
           <li className="hover:text-black hover:bg-white px-4 py-2 rounded-[50rem]">Testimonials</li>
-          <li className="hover:text-black hover:bg-white px-4 py-2 rounded-[50rem]">Contact Us</li>
+          <li className="hover:text-black hover:bg-white px-4 py-2 rounded-[50rem]"><Link to="/contact">Contact Us</Link></li>
         </ul>
       </div>
     </div>
