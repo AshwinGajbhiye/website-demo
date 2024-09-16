@@ -11,20 +11,20 @@ import logoDesignImg2 from "../assets/Tour_dev.png"; // Add appropriate image im
 
 const Service = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gray-100 py-10 mt-[90px] container">
+    <div className="flex flex-col items-center min-h-screen bg-gray-100 py-10 mt-[6rem] w-full">
       {/* Web Design Section */}
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-7xl w-full mb-10">
-        <div className="flex items-center gap-4 mb-8">
-          <h1 className="text-4xl font-bold">Web Design</h1>
+      <div className="bg-zinc-900 p-8 rounded-lg shadow-lg max-w-7xl w-full mb-10 ">
+        <div className="flex justify-center items-center gap-4 mb-8 w-full text-white">
+          <h1 className="text-4xl font-bold ">Web Design</h1>
           <IoBrushOutline className="text-5xl" />
         </div>
 
-        <div className="flex bg-white p-8 rounded-lg shadow-lg max-w-7xl w-full gap-8">
-          <div className="w-1/2">
+        <div className="flex bg-white p-8 rounded-lg shadow-lg w-full gap-12 flex-col items-center lg:flex-row lg:justify-center">
+          <div className="flex flex-col gap-6 w-full lg:w-[45%]">
             <h2 className="text-3xl font-semibold mb-6">
               Services that we provide in web design
             </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2">
+            <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2 flex flex-col gap-2">
               <li className="pl-2">
                 Custom Design: Tailored visual design that aligns with your
                 brand identity.
@@ -48,7 +48,7 @@ const Service = () => {
             </ul>
           </div>
 
-          <div className="w-1/2">
+          <div className="w-[90%] lg:w-[45%]">
             <img
               src={webDesignImg2}
               alt="Web Design"
@@ -64,14 +64,14 @@ const Service = () => {
       </div>
 
       {/* Web Development Section */}
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-7xl w-full mb-10">
-        <div className="flex items-center gap-4 mb-8">
+      <div className="bg-zinc-900 p-8 rounded-lg shadow-lg max-w-7xl w-full mb-10 ">
+        <div className="flex justify-center items-center gap-4 mb-8 w-full text-white">
           <h1 className="text-4xl font-bold">Web Development</h1>
           <BsCodeSlash className="text-5xl" />
         </div>
 
-        <div className="flex bg-white p-8 rounded-lg shadow-lg max-w-7xl w-full gap-16">
-          <div className="w-1/2">
+        <div className="flex bg-white p-8 rounded-lg shadow-lg w-full gap-12 flex-col items-center lg:flex-row ">
+          <div className="w-full lg:w-[45%]">
             <div className="relative overflow-hidden rounded-lg mb-4">
               <img
                 src={webDevelopmentImg}
@@ -127,11 +127,11 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="w-1/2 pl-8">
+          <div className="w-full lg:w-[45%] pl-8 flex flex-col gap-6">
             <h2 className="text-3xl font-semibold mb-6">
               Services that we provide in web development
             </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2">
+            <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2 flex flex-col gap-2">
               <li className="pl-2">
                 Front-End Development: Building the client-side of websites with
                 modern technologies like HTML, CSS, and JavaScript frameworks.
@@ -162,18 +162,18 @@ const Service = () => {
       </div>
 
       {/* Video Editing Section */}
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-7xl w-full mb-10">
-        <div className="flex items-center gap-4 mb-8">
+      <div className="bg-zinc-900 p-8 rounded-lg shadow-lg max-w-7xl w-full mb-10 ">
+        <div className="flex justify-center items-center gap-4 mb-8 w-full text-white">
           <h1 className="text-4xl font-bold">Video Editing</h1>
           <BsCameraVideo className="text-5xl" />
         </div>
 
-        <div className="flex bg-white p-8 rounded-lg shadow-lg max-w-7xl w-full gap-8">
-          <div className="w-1/2">
+        <div className="flex bg-white p-8 rounded-lg shadow-lg w-full gap-12 flex-col items-center lg:flex-row">
+          <div className="w-full lg:w-[45%] flex flex-col gap-6">
             <h2 className="text-3xl font-semibold mb-6">
               Services that we provide in video editing
             </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2">
+            <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2 flex flex-col gap-2">
               <li className="pl-2">Cutting and Trimming: Enhance storytelling.</li>
               <li className="pl-2">Transitions: Smooth scene changes.</li>
               <li className="pl-2">Color Grading: Set the mood with adjustments.</li>
@@ -183,7 +183,7 @@ const Service = () => {
             </ul>
           </div>
 
-          <div className="w-1/2">
+          <div className="w-full lg:w-[45%] ">
             <video className="w-full h-auto rounded-lg shadow-md" controls>
               <source src="/assets/video_sample.mp4" type="video/mp4" />
             </video>
@@ -192,15 +192,15 @@ const Service = () => {
       </div>
 
       {/* Logo Design Section */}
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-7xl w-full">
-      <div className="flex items-center gap-4 mb-8">
+      <div className="bg-zinc-900 p-8 rounded-lg shadow-lg max-w-7xl w-full mb-10 ">
+      <div className="flex justify-center items-center gap-4 mb-8 w-full text-white">
         <h1 className="text-4xl font-bold">Logo Design</h1>
         <BsBrush className="text-5xl" />
       </div>
     
-      <div className="flex bg-white p-8 rounded-lg shadow-lg max-w-7xl w-full gap-16">
+      <div className="flex bg-white p-8 rounded-lg shadow-lg w-full gap-12 flex-col items-center lg:flex-row">
         {/* Logos on the left side */}
-        <div className="w-1/2">
+        <div className="w-full lg:w-[45%] gap-10 ">
           <img
             src={logoDesignImg1}
             alt="Logo Design"
@@ -214,11 +214,11 @@ const Service = () => {
         </div>
     
         {/* Content on the right side */}
-        <div className="w-1/2">
+        <div className="w-full lg:w-[45%] flex flex-col gap-6">
           <h2 className="text-3xl font-semibold mb-6">
             Services that we provide in logo design
           </h2>
-          <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2">
+          <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2 flex flex-col gap-2">
             <li className="pl-2">
               Custom Logos: Unique, personalized logos that represent your
               brand identity.
