@@ -11,7 +11,7 @@ import logoDesignImg2 from "../assets/Tour_dev.png"; // Add appropriate image im
 
 const Service = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gray-100 py-10 mt-[6rem] w-full">
+    <div className="flex flex-col items-center min-h-screen bg-gray-100 py-10 mt-[6rem] w-full px-8">
       {/* Web Design Section */}
       <div className="bg-zinc-900 p-8 rounded-lg shadow-lg max-w-7xl w-full mb-10 ">
         <div className="flex justify-center items-center gap-4 mb-8 w-full text-white">
